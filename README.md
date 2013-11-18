@@ -8,8 +8,9 @@ OWASP AntiSamy [ XSS ]
 
 OWASP Antisamy provide classes that identify XSS
 
-UserInputSanitizer
-
+<dl>
+  <dt>UserInputSanitizer</dt>
+  <dd>
 It's a class that remove XSS from the input provide from the Interceptor
 
 method
@@ -26,6 +27,12 @@ result
 
     before : hi <script src="#default"><script>
     after : hi
+  </dd>
+</dl>
+
+UserInputSanitizer
+
+
 
 
 VECInterceptor
