@@ -3,14 +3,12 @@ vz-vec-security
  
 Basic framework security for backend 
 
-OWASP AntiSamy [ XSS ]
-================
+*OWASP AntiSamy [ XSS ]*
 
 OWASP Antisamy provide classes that identify XSS
 
-<dl>
-  <dt>UserInputSanitizer</dt>
-  <dd>
+*UserInputSanitizer*
+
 It's a class that remove XSS from the input provide from the Interceptor
 
 method
