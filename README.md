@@ -25,7 +25,14 @@ result
 
     before : hi <script src="#default"><script>
     after : hi
-  </dd>
+    
+<dl>
+    <dt>model</dt>
+    <dd>User without HTML encode (uncomment line 14 in app.js)</dd>
+    <dt>store</dt>
+    <dd>Users</dd>
+    <dt>HTML Encode</dt>
+    <dd>A way of encode is applicated through function rendered in the view used (line 61 - 64 app.js)</dd>
 </dl>
 
 UserInputSanitizer
